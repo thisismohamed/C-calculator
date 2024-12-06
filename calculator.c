@@ -52,7 +52,7 @@ int main() {
 
                 printf("Result: %.2lf\n", result);
                 printf("Would you like to perform another calculation? y/n: ");
-                scanf("%c", &again);
+                scanf("%s", &again);
         } while (again == 'y' | again == 'Y');
         return 0;
 }
